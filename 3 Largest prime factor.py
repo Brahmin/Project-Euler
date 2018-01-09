@@ -21,7 +21,7 @@ for possible_prime_factor in range(2, math.ceil(math.sqrt(number_to_factor))):
                     print(factor)
                     print('A prime factor above')
                     if factor > winner:
-                        winner = possible_prime_factor
+                        winner = factor
 if winner == 0:
     print('Number is prime')
 else:
